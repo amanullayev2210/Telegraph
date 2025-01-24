@@ -9,7 +9,7 @@ document.querySelectorAll('.hero_link').forEach(link => {
       const startPosition = window.pageYOffset;
       const targetPosition = targetSection.offsetTop;
       const distance = targetPosition - startPosition;
-      const duration = 1350; 
+      const duration = 2150; 
       let startTime = null;
 
       function scrollAnimation(currentTime) {
@@ -46,7 +46,7 @@ document.querySelectorAll('.hero_link').forEach(link => {
       const startPosition = window.pageYOffset;
       const targetPosition = targetSection.offsetTop;
       const distance = targetPosition - startPosition;
-      const duration = 2650; 
+      const duration = 1650; 
       let startTime = null;
 
       function scrollAnimation(currentTime) {
