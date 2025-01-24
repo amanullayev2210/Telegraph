@@ -67,6 +67,7 @@ a {
 
 .header_link:hover {
     cursor: pointer;
+    opacity: 0.7;
 }
 
 .header_link:focus {
@@ -122,6 +123,7 @@ a {
 
 .hero_link:hover {
     cursor: pointer;
+    opacity: 0.7;
 }
 
 .hero_img {
@@ -447,6 +449,7 @@ a {
     text-align: center;
 }
 
+
 .quick-link_wrapper {
     text-align: center;
 }
@@ -461,6 +464,11 @@ a {
     border-radius: 30px;
     background-color: var(--red-color);
     color: var(--white-color);
+}
+
+.quick_link:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 /* Main end */
