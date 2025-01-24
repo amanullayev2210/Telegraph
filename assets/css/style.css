@@ -502,7 +502,7 @@ a {
 }
 
 .footer_item {
-    max-width: 63px;
+    max-width: 76px;
     width: 100%;
 }
 
@@ -692,6 +692,10 @@ a {
         justify-content: center;
         align-items: center;
         gap: 25px;
+    }
+
+    .footer_item {
+        text-align: center;
     }
 
     .footer_wrapper {
