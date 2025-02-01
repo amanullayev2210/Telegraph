@@ -489,11 +489,6 @@ a {
     color: var(--main-color);
 }
 
-.footer_text:hover {
-    cursor: pointer;
-    color: var(--red-color);
-}
-
 .footer_list {
     display: flex;
     justify-content: space-between;
