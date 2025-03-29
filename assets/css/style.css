@@ -150,7 +150,6 @@ a {
     padding: 30px;
     background-color: var(--white-color);
     border-radius: 30px;
-    cursor: pointer;
 }
 
 .try_tittle {
@@ -314,7 +313,6 @@ a {
     padding-inline: 20px;
     background-color: var(--white-color);
     border-radius: 10px;
-    cursor: pointer;
 }
 
 .info_img {
@@ -464,7 +462,6 @@ a {
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
-    cursor: pointer;
 }
 
 
@@ -518,12 +515,10 @@ a {
 }
 
 .footer_link:hover {
-    cursor: pointer;
     color: var(--red-color);
 }
 
 .footer_link:active {
-    cursor: pointer;
     color: var(--red-color);
 }
 
