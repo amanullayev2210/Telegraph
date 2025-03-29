@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Aos animation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href=".//assets/imgs/shield.svg" type="image/x-icon">
     <title>Telegraph</title>
 </head>
 <body>
     <!-- Header start -->
-     <header class="header">
+     <header class="header" >
         <div class="container">
-            <div class="header_wrapper">
-                <a href="https://telegraph-app.vercel.app" class="header_logo">
+            <div class="header_wrapper" data-aos="fade-up" data-aos-duration="1100">
+                <a href="index.html" class="header_logo" >
                     <img src="./assets/imgs/logo.svg">
                 </a>
                 <a href="#try" class="header_link">Try Beta</a>
@@ -26,7 +28,7 @@
         <section class="hero">
             <div class="container">
               <div class="hero_wrapper">
-                <div class="hero_description">
+                <div class="hero_description" data-aos="fade-right" data-aos-duration="1450" data-aos-offset="300" data-aos-easing="ease-in-sine" >
                     <h1 class="hero_tittle">
                         Simple. Secure.
                         Reliable messaging.
@@ -40,7 +42,7 @@
                     <a href="#about" class="hero_link">Read more &gt;</a>
                   </div>
                 </div>
-                <img src="./assets/imgs/group.jpg" class="hero_img">
+                <img src="./assets/imgs/group.jpg" class="hero_img" data-aos="fade-left" data-aos-duration="950" data-aos-offset="300" data-aos-easing="ease-in-sine">
             </div>
           </div>
         </section>
@@ -48,7 +50,7 @@
          <section class="try" id="try">
             <div class="container">
                 <div class="try_wrapper">
-                    <ul class="try_list">
+                    <ul class="try_list" data-aos="zoom-in" data-aos-duration="950" data-aos-offset="300">
                         <li class="try_item">
                             <img src="./assets/imgs/android.svg" class="try_img">
                             <h3 class="try_tittle">
@@ -104,7 +106,7 @@
         <!-- About section -->
          <section class="about" id="about">
             <div class="container">
-                <div class="about_wrapper">
+                <div class="about_wrapper" data-aos="zoom-in" data-aos-duration="1250" data-aos-offset="300">
                 <img src="./assets/imgs/man-with_phone.jpg" class="about_img">
                 <div class="about_decription">
                     <h2 class="about_tittle">
@@ -128,7 +130,7 @@
         <!-- Information section -->
          <section class="info">
             <div class="container">
-                <div class="info_wrapper">
+                <div class="info_wrapper" data-aos="zoom-in-right" data-aos-duration="1450" data-aos-offset="300">
                     <div class="info_description">
                     <h2 class="info_tittle">
                         Sharing Cool Stuff With Your
@@ -190,7 +192,7 @@
          <!-- Touch section -->
           <section class="touch">
             <div class="container">
-                <div class="touch_wrapper">
+                <div class="touch_wrapper" data-aos="zoom-in" data-aos-duration="1450">
                     <img src="./assets/imgs/girl_use_phone.jpg" class="touch_img">
                     <div class="touch_description">
                         <h2 class="touch_title">
@@ -210,7 +212,7 @@
         <!-- Quick section -->
          <section class="quick" id="quick">
             <div class="container">
-                <div class="quick_wrapper">
+                <div class="quick_wrapper" data-aos="flip-up" data-aos-duration="1750">
                     <h2 class="quick_tittle">
                         Let’s Start With Quick App
                     </h2>
@@ -229,9 +231,9 @@
      </main>
     <!-- Main end -->
     <!-- Footer start -->
-     <footer class="footer">
+     <footer class="footer" >
         <div class="container">
-            <div class="footer_wrapper">
+            <div class="footer_wrapper" >
             <p class="footer_text">
                 © Telegraph. 2020 — All rights reserved.
             </p>
@@ -250,5 +252,7 @@
         </div>
      </footer>
      <script src="./assets/script.js"></script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>AOS.init();</script>
 </body>
 </html>
